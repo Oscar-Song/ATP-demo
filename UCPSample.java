@@ -30,11 +30,11 @@ import oracle.ucp.jdbc.PoolDataSourceFactory;
 import oracle.ucp.jdbc.PoolDataSource;
 
 public class UCPSample {
-  final static String DB_URL="jdbc:oracle:thin:@db201905131546_medium?TNS_ADMIN=/Users/oscarsong/ATP-demo/wallet_DB201905131546";
+  final static String DB_URL="jdbc:oracle:thin:@db1_medium?TNS_ADMIN=/Users/oscarsong/ATP-demo/wallet_DB1";
   // Use the TNS Alias name along with the TNS_ADMIN - For ATP and ADW
   // final static String DB_URL="jdbc:oracle:thin:@myhost:1521@wallet_dbname?TNS_ADMIN=/Users/test/wallet_dbname";
   final static String DB_USER = "admin";
-  final static String DB_PASSWORD = "3!hTn-n!d2MC7Tg";
+  final static String DB_PASSWORD = "M.@aBoT0M.@a";
   final static String CONN_FACTORY_CLASS_NAME="oracle.jdbc.pool.OracleDataSource";
 
   /*
