@@ -1,0 +1,15 @@
+db201905131546_high = (description= (address=(protocol=tcps)(port=1522)(host=adb.us-ashburn-1.oraclecloud.com))(connect_data=(service_name=bbgthrundpfnaqy_db201905131546_high.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+db201905131546_low = (description= (address=(protocol=tcps)(port=1522)(host=adb.us-ashburn-1.oraclecloud.com))(connect_data=(service_name=bbgthrundpfnaqy_db201905131546_low.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+db201905131546_medium = (description= (address=(protocol=tcps)(port=1522)(host=adb.us-ashburn-1.oraclecloud.com))(connect_data=(service_name=bbgthrundpfnaqy_db201905131546_medium.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+db201905131546_tp = (description= (address=(protocol=tcps)(port=1522)(host=adb.us-ashburn-1.oraclecloud.com))(connect_data=(service_name=bbgthrundpfnaqy_db201905131546_tp.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+
+db201905131546_tpurgent = (description= (address=(protocol=tcps)(port=1522)(host=adb.us-ashburn-1.oraclecloud.com))(connect_data=(service_name=bbgthrundpfnaqy_db201905131546_tpurgent.atp.oraclecloud.com))(security=(ssl_server_cert_dn=
+        "CN=adwc.uscom-east-1.oraclecloud.com,OU=Oracle BMCS US,O=Oracle Corporation,L=Redwood City,ST=California,C=US"))   )
+

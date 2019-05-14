@@ -30,11 +30,11 @@ import oracle.ucp.jdbc.PoolDataSourceFactory;
 import oracle.ucp.jdbc.PoolDataSource;
 
 public class UCPSample {
-  final static String DB_URL="jdbc:oracle:thin:@myhost:1521/orclservicename";
+  final static String DB_URL="jdbc:oracle:thin:@db201905131546_medium?TNS_ADMIN=/Users/oscarsong/ATP-demo/wallet_DB201905131546";
   // Use the TNS Alias name along with the TNS_ADMIN - For ATP and ADW
   // final static String DB_URL="jdbc:oracle:thin:@myhost:1521@wallet_dbname?TNS_ADMIN=/Users/test/wallet_dbname";
-  final static String DB_USER = "hr";
-  final static String DB_PASSWORD = "hr";
+  final static String DB_USER = "admin";
+  final static String DB_PASSWORD = "3!hTn-n!d2MC7Tg";
   final static String CONN_FACTORY_CLASS_NAME="oracle.jdbc.pool.OracleDataSource";
 
   /*
@@ -106,13 +106,14 @@ public class UCPSample {
           + "EMPLOYEENAME VARCHAR2 (20))");
       System.out.println("New table EMP is created");
       // Insert some records into the table EMP
-      statement.executeUpdate("insert into EMP values(1, 'Jennifer Jones')");
-      statement.executeUpdate("insert into EMP values(2, 'Alex Debouir')");
+      statement.executeUpdate("insert into EMP values(1, 'Larry Ellison')");
+      statement.executeUpdate("insert into EMP values(2, 'Victoria Davis')");
+      statement.executeUpdate("insert into EMP values(3, 'Oscar Savage')");
       System.out.println("Two records are inserted.");
 
       // Update a record on EMP table.
-      statement.executeUpdate("update EMP set EMPLOYEENAME='Alex Deborie'"
-          + " where EMPLOYEEID=2");
+      statement.executeUpdate("update EMP set EMPLOYEENAME='Oscar Song'"
+          + " where EMPLOYEEID=3");
       System.out.println("One record is updated.");
 
       // Verify the table EMP
