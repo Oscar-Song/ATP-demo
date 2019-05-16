@@ -30,7 +30,7 @@ import oracle.ucp.jdbc.PoolDataSourceFactory;
 import oracle.ucp.jdbc.PoolDataSource;
 
 public class UCPSample {
-  final static String DB_URL="jdbc:oracle:thin:@db1_medium?TNS_ADMIN=/Users/oscarsong/ATP-demo/wallet_DB1";
+  final static String DB_URL="jdbc:oracle:thin:@db1_medium?TNS_ADMIN=/home/opc/ATP-demo/wallet_DB1";
   // Use the TNS Alias name along with the TNS_ADMIN - For ATP and ADW
   // final static String DB_URL="jdbc:oracle:thin:@myhost:1521@wallet_dbname?TNS_ADMIN=/Users/test/wallet_dbname";
   final static String DB_USER = "admin";
@@ -109,7 +109,7 @@ public class UCPSample {
       statement.executeUpdate("insert into EMP values(1, 'Larry Ellison')");
       statement.executeUpdate("insert into EMP values(2, 'Victoria Davis')");
       statement.executeUpdate("insert into EMP values(3, 'Oscar Savage')");
-      System.out.println("Two records are inserted.");
+      System.out.println("Three records are inserted.");
 
       // Update a record on EMP table.
       statement.executeUpdate("update EMP set EMPLOYEENAME='Oscar Song'"
